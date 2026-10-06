@@ -6,17 +6,17 @@ public class Member {
     private int borrowedCount;
     private int maxBorrowLimit;
 
-    public Member(String memberID, String name , int maxBorrowLimit){
+    public Member(String memberId, String name , int maxBorrowLimit){
         setMemberId(memberId);
         setName(name);
         this.maxBorrowLimit = maxBorrowLimit;
         this.borrowedCount = 0;
 
     }
-    public String getMembberID(){
+    public String getMemberId(){
         return memberId;
     }
-    public String setName(){
+    public String getName(){
         return name;
     }
     public int getBorrowedCount() {

@@ -27,7 +27,7 @@ public void setId(String id) {
 }
 public void setTitle(String title) {
     if (title == null || title.isBlank()) {
-        throw new IllegalArgumentException("title cannot be blank");
+        throw new IllegalArgumentException("Title cannot be blank");
     }
     this.title = title;
 }

@@ -10,5 +10,6 @@ public class Main {
         DVD d = new DVD("D001", "Intro to Algorithms", 120);
         System.out.println(b.calculateLateFee(3));
         System.out.println(d.calculateLateFee(3));
-        new Book("207","Harry Potter", "J.K.Rowling");
+        new Book("207", "Harry Potter", "J.K.Rowling");
+    }
 }
